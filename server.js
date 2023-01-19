@@ -9,6 +9,13 @@ app.get("/", function(req, res) {
 res.sendFile(__dirname + "/bmi-calculator");
 });
 
-app.post("/", function (req, res) {
+app.post("/", function (req, res){
+});
 
+app.get("/bmi-calculator", function(req,res){
+    res.sendFile(__dirname + "/bmi-calculator");
+});
+
+app.listen(port, function(){
+console.log("Server is running on port 3000.");
 });
