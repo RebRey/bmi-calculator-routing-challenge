@@ -1,6 +1,6 @@
 # bmi-calculator-routing-challenge
 
-## Goal
+## Objective
 Turn the previous BMI calculator code I wrote into a real website using npm and express.
 
 ## Directions
